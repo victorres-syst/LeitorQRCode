@@ -1,1 +1,3 @@
-<h1> Atividade onde nos foi destinado a fazer uma aplicação mobile que fosse uma PWA e que tivesse conexão com a câmera do smartphone e que obrigatoriamente utilizasse alguma API pública. </h1>
+<h1> LEitor de QR Code, PWA com API pública </h1>
+
+<h3> O arquivo index solto fora da pasta é para realização do debploy pelo verce. Todo o codigo fonte esta dentro da pagina "codigos". </h3>
