@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leitor QR + Info Produto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📱 Leitor de QR Code</h1>
+
+  <!-- Área do vídeo (câmera) -->
+  <div id="camera-container">
+    <video id="camera" autoplay playsinline></video>
+  </div>
+
+  <!-- Botão para iniciar leitura -->
+  <button id="start-scan">Iniciar Scanner</button>
+
+  <!-- Resultado da leitura -->
+  <div id="result">
+    <p><strong>Código lido:</strong> <span id="qr-result">Nenhum</span></p>
+    <div id="product-info"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
